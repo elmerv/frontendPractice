@@ -1,0 +1,36 @@
+#flexContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #89cff0;
+    min-height: 100vh;
+}
+body{
+    margin: 0px;
+}
+.numDiv{
+    background-color: #152238;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+    font-family: monospace;
+    font-size: larger;
+    height: 10%;
+}
+.divList{
+    display: flex;
+
+    flex-direction: column;
+    width:7%;
+    justify-content: space-evenly;
+    background-color: #23395d;
+}
+.divListReverse{
+    display: flex;
+
+    flex-direction: column-reverse;
+    width:7%;
+    justify-content: space-evenly;
+    background-color: #0e838b;
+}
